@@ -145,4 +145,4 @@ const jsonSample = [{
         }
     }
 }]
-app.get('/', (req, res) => res.json(json))
+app.get('/', (req, res) => res.json(jsonSample))
